@@ -1,0 +1,45 @@
+# ── Temel ───────────────────────────────────────────────────────────────────
+requests
+numpy
+
+# ── Ses ciktisi (TTS) ────────────────────────────────────────────────────────
+pywin32             # Windows OneCore sesler
+pycaw               # Windows ses seviyesi kontrolu
+comtypes
+
+# ── Ses girisi (STT) ─────────────────────────────────────────────────────────
+sounddevice
+webrtcvad-wheels
+vosk
+faster-whisper
+
+# ── Görüntü / OCR ────────────────────────────────────────────────────────────
+Pillow
+mss
+pytesseract
+
+# ── UI Otomasyonu / Kontrol ───────────────────────────────────────────────────
+pyautogui
+pygetwindow
+pyperclip
+uiautomation
+pywinauto             # Accessibility tree (UI Automation) — element bul & tıkla
+
+# ── Sistem ───────────────────────────────────────────────────────────────────
+psutil
+screen-brightness-control
+
+# ── LLM / Bellek ─────────────────────────────────────────────────────────────
+chromadb          # opsiyonel — vektör bellek (ChromaDB)
+duckduckgo-search # web arama skill
+
+# ── Cyber / Keşif araçları ────────────────────────────────────────────────────
+dnspython>=2.4.0
+python-whois>=0.9.0
+cryptography>=41.0.0
+zxcvbn>=4.4.0
+
+# ── Paketleme ────────────────────────────────────────────────────────────────
+pyinstaller
+edge-tts            # Microsoft neural TTS (insansı Türkçe ses)
+miniaudio           # edge-tts MP3 çözümü (WAV'a)
